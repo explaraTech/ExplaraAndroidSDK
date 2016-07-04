@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SdkDemo.iml" filepath="$PROJECT_DIR$/SdkDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citruslibrary/citruslibrary.iml" filepath="$PROJECT_DIR$/citruslibrary/citruslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citruspay-sdk-ui/citruspay-sdk-ui.iml" filepath="$PROJECT_DIR$/citruspay-sdk-ui/citruspay-sdk-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explara-core/explara-core.iml" filepath="$PROJECT_DIR$/explara-core/explara-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explara-eventslisting-sdk/explara-eventslisting-sdk.iml" filepath="$PROJECT_DIR$/explara-eventslisting-sdk/explara-eventslisting-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explara-eventslisting-sdk-ui/explara-eventslisting-sdk-ui.iml" filepath="$PROJECT_DIR$/explara-eventslisting-sdk-ui/explara-eventslisting-sdk-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explara-payment-sdk/explara-payment-sdk.iml" filepath="$PROJECT_DIR$/explara-payment-sdk/explara-payment-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explara-sdk/explara-sdk.iml" filepath="$PROJECT_DIR$/explara-sdk/explara-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explara-ticketing-sdk/explara-ticketing-sdk.iml" filepath="$PROJECT_DIR$/explara-ticketing-sdk/explara-ticketing-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explara-ticketing-sdk-ui/explara-ticketing-sdk-ui.iml" filepath="$PROJECT_DIR$/explara-ticketing-sdk-ui/explara-ticketing-sdk-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

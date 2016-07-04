@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.explara.explara_ticketing_sdk_ui.attendee.ui.MultiCheckboxCustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/attendee_radio_group_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+</com.explara.explara_ticketing_sdk_ui.attendee.ui.MultiCheckboxCustomLayout>
+

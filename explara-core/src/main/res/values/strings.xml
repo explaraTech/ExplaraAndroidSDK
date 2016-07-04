@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Explara-Core</string>
+    <string name="search_hint">Search Events,Categories and more</string>
+    <string name="shared_prefs_key">com.explara.android.shared_preferences</string>
+    <string name="empty_full_name">Please enter your full name</string>
+    <string name="empty_username">Enter a valid email address</string>
+    <string name="empty_mobile_number">Please enter mobile number</string>
+    <string name="mobile_is_number">Mobile must be numbers only</string>
+    <string name="account_already_exist">Account already exist</string>
+    <string name="empty_password">Password seems to be empty</string>
+    <string name="account_inactive">Account is not active</string>
+    <string name="internet_check_msg">Please check Internet Connection</string>
+    <string name="check_aggrement">Please select the agreement checkbox</string>
+    <string name="empty_new_password">New password seems to be empty</string>
+    <string name="empty_confirm_password">Confirm password seems to be empty</string>
+    <string name="password_not_match">Both password are not matching</string>
+    <string name="empty_verification_code">Verification code could not be empty</string>
+    <string name="error_message">Oops !! Something went Wrong</string>
+    <string name="rupess">&#x20B9; %1$s</string>
+    <string name="create_event_title">CreateEvent</string>
+    <string name="search_title">Search</string>
+
+    <string name="explara_branch_key_test">key_test_canZctYw5jJ3hDdKwhQIHildyzehBWED</string>
+    <string name="explara_branch_key_live">key_live_ibhYnB1x2iM1ctlQtaOHHdpgsBeeq1FU</string>
+
+    <string name="explara_eventmanager_branch_key_test">key_test_iaf3UowcNGbJGIFy6xFUgfecCzif2y31</string>
+    <string name="explara_eventmanager_branch_key_live">key_live_lcg5IlwmKUgQGUFtYswuWnnowDap9z0J</string>
+
+</resources>

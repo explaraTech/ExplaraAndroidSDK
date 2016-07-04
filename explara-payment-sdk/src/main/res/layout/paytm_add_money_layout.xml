@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/paytm_add_money_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Please select an amount"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/amount_1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="22dp"
+            android:layout_weight="1"
+            android:background="@drawable/paytm_amount_item_circle_bg"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingTop="25dp"
+            android:text="100"
+            android:textAlignment="center"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/amount_1500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/paytm_amount_item_circle_bg"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingTop="25dp"
+            android:text="500"
+            android:textAlignment="center"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/amount_2000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/paytm_amount_item_circle_bg"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingTop="25dp"
+            android:text="1500"
+            android:textAlignment="center"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Or Enter an amount"
+        android:textAllCaps="true" />
+
+    <com.explara_core.utils.CustomTextInputLayout
+        android:id="@+id/username_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp">
+
+        <EditText
+            android:id="@+id/amount_edt_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="beforeDescendants"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="@string/rupee_symbol"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+    </com.explara_core.utils.CustomTextInputLayout>
+
+    <Button
+        android:id="@+id/recharge_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/reacharge_btn"
+        android:text="Recharge"
+        android:textAllCaps="true"
+        android:textColor="#FFF" />
+
+
+</LinearLayout>

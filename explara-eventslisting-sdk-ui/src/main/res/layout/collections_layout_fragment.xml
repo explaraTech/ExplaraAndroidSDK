@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ededed">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ededed">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dadada"
+                android:clipToPadding="false"
+                android:paddingBottom="10dp"
+                android:visibility="invisible" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/accentColor"
+            android:indeterminateTintMode="src_in"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/error_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/error_img"
+            android:text="@string/error_message"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/default_org_events_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="No events available"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/default_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/rating"
+            android:text="@string/no_fav_events"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/no_filter_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter Result is Empty"
+            android:layout_gravity="center"
+            android:visibility="gone"
+
+
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:onClick="fabBtnClicked"
+            android:src="@drawable/ic_apps_white_24dp"
+            android:transitionName="pos"
+            android:visibility="visible"
+            app:borderWidth="0dp"
+            app:elevation="8dp"
+            app:layout_anchorGravity="bottom|right|end"
+            app:pressedTranslationZ="12dp" />
+    </FrameLayout>
+
+
+    <include
+        android:id="@+id/filter_bottom_layout"
+        layout="@layout/filter_events_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

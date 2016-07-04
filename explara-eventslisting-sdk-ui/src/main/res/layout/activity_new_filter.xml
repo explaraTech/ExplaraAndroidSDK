@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView_event_filter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.explara.android.events.ui.filter">
+
+
+        <TextView
+            android:id="@+id/header"
+            style="@style/textViewBookFontStyle"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#dadad9"
+            android:gravity="center"
+            android:text="Filters"
+            android:textColor="#212121"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/textViewBookFontStyleForRadioButtonFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="33dp"
+            android:text="Sort by"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+
+        <LinearLayout
+            android:id="@+id/radioGroup_sort_by"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                >
+
+                <ImageView
+                    android:id="@+id/radio_btn_popular"
+                    style="@style/textViewBookFontStyleForRadioButtonFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:onClick="hello"
+                    android:padding="8dp"
+                    android:src="@drawable/popular_inactive"
+                    android:textColor="@drawable/selector_text" />
+
+                <TextView
+                    android:id="@+id/popular_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_btn_popular"
+                    android:gravity="center"
+                    android:text="      Popularity"
+                    android:textColor="#c2c2c2" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/radio_btn_trending"
+                    style="@style/textViewBookFontStyleForRadioButtonFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:src="@drawable/selector_filter_trending"
+                    android:textColor="@drawable/selector_text" />
+
+
+                <TextView
+                    android:id="@+id/trending_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_btn_trending"
+                    android:gravity="center"
+                    android:text="       Trending"
+                    android:textColor="#c2c2c2" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/radio_btn_most_viewed"
+                    style="@style/textViewBookFontStyleForRadioButtonFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:src="@drawable/selector_filter_most_viewed"
+                    android:textColor="@drawable/selector_text" />
+
+                <TextView
+                    android:id="@+id/most_viewed_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_btn_most_viewed"
+                    android:gravity="center"
+                    android:text="    Most Viewed"
+                    android:textColor="#c2c2c2" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+
+            >
+
+            <TextView
+                style="@style/textViewBookFontStyleForRadioButtonFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="33dp"
+                android:text="Time"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/radioGroup_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="#fafafa"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/radio_btn_all"
+                style="@style/textViewBookFontStyleForRadioButtonFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All"
+                android:textColor="@drawable/selector_text"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/radio_btn_today"
+                    style="@style/textViewBookFontStyleForRadioButtonFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:src="@drawable/calendar_inactive"
+                    android:textColor="@drawable/selector_text" />
+
+
+                <TextView
+                    android:id="@+id/today_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_btn_today"
+                    android:gravity="center"
+                    android:text="         Today"
+                    android:textColor="#c2c2c2" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/radio_btn_this_week"
+                    style="@style/textViewBookFontStyleForRadioButtonFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:src="@drawable/calendar_inactive"
+                    android:textColor="@drawable/selector_text" />
+
+
+                <TextView
+                    android:id="@+id/this_week_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_btn_this_week"
+                    android:gravity="center"
+                    android:text="     This Week"
+                    android:textColor="#c2c2c2" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/radio_btn_this_month"
+                    style="@style/textViewBookFontStyleForRadioButtonFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:src="@drawable/calendar_inactive"
+                    android:textColor="@drawable/selector_text" />
+
+
+                <TextView
+                    android:id="@+id/this_month_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_btn_this_month"
+                    android:gravity="center"
+                    android:text="    This Month"
+                    android:textColor="#c2c2c2" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/textViewBookFontStyleForRadioButtonFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="33dp"
+            android:text="Price"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:id="@+id/radioGroup_price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/radio_btn_free"
+                style="@style/textViewBookFontStyleForRadioButtonFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free"
+                android:textColor="#757575"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/radio_btn_0_499rs"
+                style="@style/textViewBookFontStyleForRadioButtonFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Under \nRs. 499"
+                android:textColor="#c2c2c2"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/radio_btn_500_999rs"
+                style="@style/textViewBookFontStyleForRadioButtonFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rs. 500 to \n Rs. 999"
+                android:textColor="#c2c2c2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/radio_btn_1000_4999rs"
+                style="@style/textViewBookFontStyleForRadioButtonFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rs. 1000 to \n Rs. 4999"
+                android:textColor="#c2c2c2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/radio_btn_5000_above"
+                style="@style/textViewBookFontStyleForRadioButtonFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rs. 5000\n and above"
+                android:textColor="#c2c2c2"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/apply_filter"
+            style="@style/textViewBookFontStyle"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_bg_filter"
+            android:text="Apply Filter"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

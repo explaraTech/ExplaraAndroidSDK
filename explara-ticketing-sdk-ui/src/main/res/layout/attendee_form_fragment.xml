@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/attendee_form_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <com.explara.explara_ticketing_sdk_ui.attendee.ui.AttendeeCustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/attendee_base_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+            </com.explara.explara_ticketing_sdk_ui.attendee.ui.AttendeeCustomLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/inline_buyer_payment_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/separator_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/separator_line_light" />
+
+        <RelativeLayout
+            android:id="@+id/buyer_details_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/buyer_text"
+                style="@style/textViewBookFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="Buying as"
+                android:textColor="#757575"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/buyername_text"
+                style="@style/textViewBookFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/buyer_text"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="Buyer Name"
+                android:textColor="#212121"
+                android:textSize="14sp" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/buyeremail_text"-->
+            <!--style="@style/textViewBookFontStyle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_below="@+id/buyername_text"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:textSize="14sp"-->
+            <!--android:text="debasish.panda@signure.com" />-->
+
+            <TextView
+                android:id="@+id/buyerdetails_change_text"
+                style="@style/textViewBookFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:text="CHANGE"
+                android:textColor="#212121"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separator_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/separator_line_light" />
+
+        <RelativeLayout
+            android:id="@+id/payment_details_tab"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/payment_mode_name_images"
+                style="@style/textViewBookFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp" />
+
+
+            <TextView
+                android:id="@+id/payment_mode_name"
+                style="@style/textViewBookFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/payment_mode_name_images"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/payment_mode_change_text"
+                style="@style/textViewBookFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:text="CHANGE"
+                android:textColor="#212121"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/enquiry_background"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:id="@+id/totalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:text="Total"
+                android:textColor="#757575"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/final_price_checkout_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#212121"
+                android:textSize="19dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/checkout_btn"
+            android:layout_width="200dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/reacharge_btn"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Proceed to Pay"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

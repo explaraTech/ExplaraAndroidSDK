@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.sufficientlysecure.htmltextview.HtmlTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_child"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="19dp"
+    android:paddingRight="19dp"
+    android:paddingTop="5dp"
+    android:text="About"
+    android:textSize="13sp"
+    android:textColor="#212121">
+
+</org.sufficientlysecure.htmltextview.HtmlTextView>
+
+

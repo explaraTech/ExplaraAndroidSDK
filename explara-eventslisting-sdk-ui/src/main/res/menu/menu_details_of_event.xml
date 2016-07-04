@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.explara.android.Activity.DetailsOfEventActivity">
+
+
+    <!--<item-->
+    <!--android:id="@+id/chat"-->
+    <!--android:icon="@drawable/chat"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:title="chat"-->
+    <!--app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share_256"
+        android:orderInCategory="100"
+        android:title="share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/like_outline_256"
+        android:title="fav"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dialer"
+        android:icon="@drawable/ic_call_white_24dp"
+        android:title="call"
+        app:showAsAction="always"
+        android:orderInCategory="300" />
+
+
+</menu>

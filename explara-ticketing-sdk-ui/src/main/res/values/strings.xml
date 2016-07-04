@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Explara-Ticketing-Sdk-Ui</string>
+    <string name="no_sessions_by_date">No sessions available for this date</string>
+    <string name="no_sessions">No sessions available for this event</string>
+    <string name="no_packages">No packages available</string>
+    <string name="no_packages_by_date">No packages available for this date</string>
+    <string name="no_attendee_fields">Sorry, No Attendee Fields</string>
+    <string name="payment_activity">com.explara.explara_payment_sdk.payment.ui.PaymentActivity</string>
+    <string name="rupee_symbol">\u20B9</string>
+</resources>

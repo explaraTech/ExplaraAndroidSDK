@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/payment_process_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Citrus Wallet"
+        android:textSize="16sp"
+        android:textColor="@color/accentColor"
+        android:padding="5dp"
+        style="@style/textViewMediumFontStyle"
+        android:gravity="center"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="#d2d2d2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textViewMediumFontStyle"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Link"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/step_one"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/wallet_step_bg"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textViewMediumFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Check Balance"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/step_two"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/wallet_shape_white_bg"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textViewMediumFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Pay"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/step_three"
+                style="@style/textViewMediumFontStyle"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/wallet_shape_white_bg"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <include
+        android:id="@+id/step_one_layout"
+        layout="@layout/wallet_child_citrus_collect_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/step_two_layout"
+        layout="@layout/wallet_payment_flow_step_two"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/step_three_layout"
+        layout="@layout/wallet_payement_flow_step_three"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:visibility="gone">
+
+    </include>
+
+
+</LinearLayout>

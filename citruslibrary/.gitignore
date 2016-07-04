@@ -1,0 +1,40 @@
+.gradle
+/local.properties
+/build
+/captures
+
+
+app/crashlytics.properties
+*.iml
+
+#Signing
+.signing/
+
+app/app-release.apk
+app/build
+
+#Library
+citruslibrary/build
+citruspay-sdk-ui/build
+
+#.idea files
+.idea/
+.idea/libraries
+.idea/copyright
+.idea/.name
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+>>>>>>> SDK_UI

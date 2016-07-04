@@ -1,0 +1,404 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context="com.explara.android.Activity.BookingConfirmedActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/my_ticket"
+        android:layout_weight="1"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/ticket_confirmation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/ticket_confirmation" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/textViewMediumFontStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ticket_confirmation"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="24dp"
+                    android:text="Voila!"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/event_confirmed_text"
+                    style="@style/textViewBookFontStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="24dp"
+                    android:layout_gravity="center"
+                    android:text="Your payment is pending"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <!-- Ticket Confirmation Message -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f4f4f4"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/color_white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="12dp">
+
+                    <TextView
+                        style="@style/textViewBookFontStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="10dp"
+                        android:paddingBottom="4dp"
+                        android:text="Your payment is pending for"
+                        android:textColor="#7D7D7D"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/event_title"
+                        style="@style/textViewBookFontStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="Event Title"
+                        android:textColor="@color/accentColor"
+                        android:textSize="14sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/textViewBookFontStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="2dp"
+                            android:textSize="14sp"
+                            android:text="On" />
+
+
+                        <TextView
+                            android:id="@+id/event_date"
+                            style="@style/textViewBookFontStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="2dp"
+                            android:text=""
+                            android:textSize="14sp"
+                            android:textColor="@color/style_color_default_teal" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:background="@color/color_white">
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Order No"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_order_no"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Order Date"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_order_date"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Name"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_name"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Email"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_email"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Phone no"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_phone"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Instruction"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_instruction"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Ticket Type"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_ticket_type"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+                                android:id="@+id/ticket_price_title"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Ticket Price"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_ticket_price"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingTop="8dp">
+
+                            <TextView
+                                android:id="@+id/ticket_category_title"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="16dp"
+                                android:text="Ticket Category"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/text_ticket_category"
+                                style="@style/textViewBookFontStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="7"
+                                android:text=":"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/share_event"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/accentColor"
+        android:onClick="shareEvent"
+        android:text="Share Event"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

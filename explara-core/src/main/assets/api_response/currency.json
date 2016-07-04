@@ -1,0 +1,139 @@
+{
+  "currencyDetails": [
+    {
+      "currency": "INR",
+      "symbol": "&#8377;",
+      "country": "India"
+    },
+    {
+      "currency": "USD",
+      "symbol": "$",
+      "country": "United States"
+    },
+    {
+      "currency": "GBP",
+      "symbol": "&pound;",
+      "country": "United Kingdom"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "&euro;",
+      "country": "Austria"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "&euro;",
+      "country": "France"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "&euro;",
+      "country": "Germany"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "&euro;",
+      "country": "Belgium"
+    },
+    {
+      "currency": "CAD",
+      "symbol": "CA$",
+      "country": "Canada"
+    },
+    {
+      "currency": "SGD",
+      "symbol": "SGD",
+      "country": "Singapore"
+    },
+    {
+      "currency": "AUD",
+      "symbol": "A$",
+      "country": "Australia"
+    },
+    {
+      "currency": "CHF",
+      "symbol": "CHF",
+      "country": null
+    },
+    {
+      "currency": "CZK",
+      "symbol": "CZK",
+      "country": "Czech Republic"
+    },
+    {
+      "currency": "DKK",
+      "symbol": "DKK",
+      "country": "Denmark"
+    },
+    {
+      "currency": "HKD",
+      "symbol": "HK$",
+      "country": "Hong Kong"
+    },
+    {
+      "currency": "HUF",
+      "symbol": "Ft",
+      "country": "Hungary"
+    },
+    {
+      "currency": "NOK",
+      "symbol": "NOK",
+      "country": "Norway"
+    },
+    {
+      "currency": "NZD",
+      "symbol": "NZ$",
+      "country": "New Zeland"
+    },
+    {
+      "currency": "PHP",
+      "symbol": "PHP",
+      "country": "Philippines"
+    },
+    {
+      "currency": "PLN",
+      "symbol": "PLN",
+      "country": "Poland"
+    },
+    {
+      "currency": "SEK",
+      "symbol": "SEK",
+      "country": "Sweden"
+    },
+    {
+      "currency": "JPY",
+      "symbol": "&yen;",
+      "country": "Japan"
+    },
+    {
+      "currency": "BRL",
+      "symbol": "R$",
+      "country": "Brazil"
+    },
+    {
+      "currency": "THB",
+      "symbol": "&#3647;",
+      "country": "Thailand"
+    },
+    {
+      "currency": "MYR",
+      "symbol": "MYR",
+      "country": "Malaysia"
+    },
+    {
+      "currency": "TWD",
+      "symbol": "TWD",
+      "country": "Taiwan"
+    },
+    {
+      "currency": "ILS",
+      "symbol": "&#8362;",
+      "country": null
+    },
+    {
+      "currency": "TRY",
+      "symbol": "TRY",
+      "country": null
+    }
+  ]
+}

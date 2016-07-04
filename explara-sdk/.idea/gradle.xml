@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.8" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../app" />
+            <option value="$PROJECT_DIR$/../citruslibrary" />
+            <option value="$PROJECT_DIR$/../citruspay-sdk-ui" />
+            <option value="$PROJECT_DIR$/../create-event" />
+            <option value="$PROJECT_DIR$/../explara-core" />
+            <option value="$PROJECT_DIR$/../explara-eventslisting-sdk" />
+            <option value="$PROJECT_DIR$/../explara-eventslisting-sdk-ui" />
+            <option value="$PROJECT_DIR$/../explara-payment-sdk" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../explara-ticketing-sdk" />
+            <option value="$PROJECT_DIR$/../explara-ticketing-sdk-ui" />
+            <option value="$PROJECT_DIR$/../explara-user-sdk" />
+            <option value="$PROJECT_DIR$/../ucrop" />
+            <option value="$PROJECT_DIR$/../viewpagerIndicator" />
+            <option value="$PROJECT_DIR$/../volley" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

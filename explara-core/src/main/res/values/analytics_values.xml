@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--Google Analytics Screens Name-->
+
+    <string name="about_us_solutions_page">AboutUs_Solution_Screen</string>
+
+    <string name="tutorial_screen_one">Tutorial_Screen1</string>
+
+    <string name="tutorial_screen_two">Tutorial_Screen2</string>
+
+    <string name="tutorial_screen_three">Tutorial_Screen3</string>
+
+    <string name="signup_screen">SignUpScreen</string>
+
+    <string name="login_Screen">LoginScreen</string>
+
+    <string name="forgot_password_screen">ForgotPasswordScreen</string>
+
+    <string name="verification_code">ForgotPasswordScreen</string>
+
+    <string name="reset_password">ResetPasswordScreen</string>
+
+    <string name="select_your_city_screen">SelectYourCity_Screen</string>
+
+    <string name="select_your_location_screen">SelectYourLocation_Screen</string>
+
+    <string name="city_main_page">_HomePage</string>
+
+    <string name="order_detail_page">OrderDetail_Screen</string>
+
+    <string name="select_topic__page">SelectTopics_Screen</string>
+
+    <string name="event_detail_screen">EventName</string>
+
+    <string name="event_screen_topic">Topic_Screen</string>
+
+    <string name="featured_event_topic">FeaturedEventTopic</string>
+
+    <string name="choose_your_tickets_screen">ChooseYourTickets_Screen</string>
+
+    <string name="attendee_form_screen">AttendeeForm_Screen</string>
+
+    <string name="payment_options_screen">PaymentOptions_Screen</string>
+
+    <string name="booking_confirmed_screen">Ticket_Confirmation_Screen</string>
+
+
+    <string name="booking_pending_screen">BookingPending_Screen</string>
+
+    <string name="search_screen">Search_Screen</string>
+
+    <string name="search_event_screen">Search_Event_Screen</string>
+
+    <string name="category_icons_screen">Category_Icons_Screen</string>
+
+    <string name="about_us_page">AboutUs_Screen</string>
+
+    <string name="mytickets_screen">MyTicketsScreen</string>
+
+    <string name="blog_screen">BlogScreen Title:-</string>
+
+    <string name="settings_screen">Settings_Screen</string>
+
+    <string name="collection">Collection</string>
+
+    <string name="segments">Segment_Screen:-</string>
+
+    <string name="transaction">Transaction</string>
+
+    <string name="topics_screen">MyTopicsScreen</string>
+
+    <string name="topics_screen_events">Topics_Screen:-</string>
+
+    <string name="enquiry_screen">EnquiryScreen</string>
+
+    <string name="wallet_screen">MyWalletsScreen</string>
+
+    <string name="payment_screen_ola">PaymentScreen_Ola</string>
+
+    <string name="payment_screen_paytm">PaymentScreen_Paytm</string>
+
+    <string name="email_ticket_dailog">EmailTicketDialog</string>
+
+    <string name="rsvp_confirmation">RsvpConfirmationScreen</string>
+
+    <string name="rsvp_form">RsvpFormScreen</string>
+
+    <string name="ticket_detail">Select_Ticket_Screen</string>
+
+    <string name="multida_multisession_screen">Select_Packages_Screen</string>
+
+    <string name="feed_screen">HomeScreen:- Feed</string>
+
+    <string name="recommended_screen">HomeScreen:- Recommended</string>
+
+    <string name="home_screen">HomeScreen:- Home</string>
+
+    <string name="home_screen_topic">HomeScreen:- Topic</string>
+
+    <string name="my_events_screen">MyEventsScreen</string>
+
+    <string name="create_event_screen">Create_An_EventScreen</string>
+
+    <string name="create_event_suceess_screen">CreateEvent_Confirmation_Screen</string>
+
+    <string name="create_ticket_screen">CreateEvent_Ticket_Screen</string>
+
+
+    <!--Google Analytics Event Tracking-->
+    <string name="event_category_skip">Skip</string>
+    <string name="event_action_skip">Skip_Button</string>
+
+    <string name="event_category_tutorial_signup">Tutorial SignUp</string>
+    <string name="event_action_tutorial_signup">Tutorial_SignUp_Button</string>
+    
+    <string name="event_category_tutorial_login">Tutorial_LogIn</string>
+    <string name="event_action_tutorial_login">Tutorial_LogIn_Button</string>
+
+    <string name="event_category_signupscreen_signup">SignUp</string>
+    <string name="event_action_signupscreen_signup">SignUpButton</string>
+
+    <string name="event_category_signupscreen_login">LogIn</string>
+    <string name="event_action_singnupscreen_login">LogIn_Button</string>
+
+    <string name="event_category_forgotpasswordscreen_forgotpassword">ForgotPassword</string>
+    <string name="event_action_forgotpasswordscreen_forgotpassword">ForgotPassword_Button</string>
+
+    <string name="event_category_verificationcodescreen_verificationcode">VerificationCode</string>
+    <string name="event_action_verificationcodescreen_verificationcode">VerificationCode_Button</string>
+
+    <string name="event_category_resetpasswordscreen_resetpassword">ResetPassword</string>
+    <string name="event_action_resetpasswordscreen_resetpassword">ResetPassword_Button</string>
+
+    <string name="event_category_signupscreen_fbLogin">SignUpScreen_ContinueWithFacebook</string>
+    <string name="event_action_signupscreen_fbLogin">SignUpScreen_Facebook_Button</string>
+
+    <string name="event_category_loginscreen_fbLogin">LoginScreen_ContinueWithFacebook</string>
+    <string name="event_action_loginscreen_fbLogin">LoginScreen_Facebook_Button</string>
+
+    <string name="event_category_loginscreen_login">LoginScreen_Login</string>
+    <string name="event_action_loginscreen_loginbutton">LoginScreen_LoginButton</string>
+
+    <string name="event_category_loginscreen_signup">LoginScreen_SignUp</string>
+    <string name="event_action_loginscreen_signup">LoginScreen_SignUpButton</string>
+
+    <string name="event_category_loginscreen_forgotPassword">LoginScreen_ForgotPassword</string>
+    <string name="event_action_loginscreen_forgotPasswordButton">LoginScreen_ForgotPassword_Button</string>
+
+    <string name="event_detail_activity_screen_enquiry">EventDetailScreen_Enquiry</string>
+    <string name="event_action_event_detail_activity_enquiry_button">EventDetailScreen_Enquiry_Button</string>
+
+
+    <string name="event_category_buy_ticket">BuyTickets</string>
+    <string name="event_action_buy_ticket">BuyTicketsButton</string>
+
+    <!--<string name="slide_menu_screen">SlideMenu_Screen</string>-->
+    <string name="event_category_slide_menu_screen">Slide_Menu</string>
+    <string name="event_action_slide_menu_button">SlideMenu_Screen</string>
+
+    <string name="event_category_rate">RateTheApp</string>
+    <string name="event_action_rate">RateTheApp_Button</string>
+
+    <string name="event_category_share">ShareTheApp</string>
+    <string name="event_action_share">ShareTheApp_Button</string>
+
+    <string name="event_category_about">AboutTheApp</string>
+    <string name="event_action_about">AboutTheApp_Button</string>
+    
+    <string name="event_category_icons">CategoryIcons</string>
+    <string name="event_action_icon_learn">Learn_Button</string>
+
+    <string name="event_category_create_event">Create_Event_From_CategoryScreen</string>
+    <string name="event_action_create_event">Create_Event_Button</string>
+
+    <string name="event_action_icon_entertainment">Entertainment_Button</string>
+
+    <string name="event_action_icon_sports">Sports_Button</string>
+    
+    <string name="event_action_icon_food_and_drinks">Food_and_Drinks_Button</string>
+
+    <string name="event_action_icon_active_and_outdoor">Active_and_Outdoor_Button</string>
+    <string name="category_name">Category_Screen:-</string>
+    <!--adventure -->
+
+
+</resources>

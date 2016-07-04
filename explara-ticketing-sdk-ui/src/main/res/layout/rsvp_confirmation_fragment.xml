@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.explara.android.Activity.LoginActivity"
+    android:id="@+id/rsvp_form_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="THANK YOU !"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_marginTop="88dp"
+            style="@style/lato_black"
+
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableTop="@drawable/check"
+            android:id="@+id/confirmation_text"
+            android:drawablePadding="20dp"
+            android:text="Your RSVP request is successfull."
+            style="@style/lato_black"
+            android:textSize="14sp"
+
+            />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:text="FINISH"
+            android:background="#4fbcbf"
+            android:textAllCaps="true"
+            android:textColor="@color/color_white"
+            style="@style/lato_regular"
+
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+

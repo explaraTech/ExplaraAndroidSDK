@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CleverTapAndroidSDK-v2.0.4-20151216">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../app/libs/CleverTapAndroidSDK-v2.0.4-20151216.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

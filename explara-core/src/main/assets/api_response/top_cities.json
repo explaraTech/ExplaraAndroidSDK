@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "cities": [
+    "New Delhi",
+    "Bangalore",
+    "Mumbai",
+    "Pune",
+    "Chennai",
+    "Calcutta",
+    "Hyderabad",
+    "Jaipur",
+    "Ahmedabad",
+    "Goa",
+    "Noida",
+    "Indore"
+  ]
+}

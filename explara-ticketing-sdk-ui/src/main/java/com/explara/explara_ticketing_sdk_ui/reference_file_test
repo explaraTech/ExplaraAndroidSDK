@@ -1,0 +1,9 @@
+Modifications
+=============
+1. initialiseCitrus removed for now
+2. getCurrencyFormatedString , getQuantity moved to AppUtility of explara_core
+3. Remove BaseFragmentWithBottomsheet and its layout from create event and app level as i have moved it to core
+4. Add some images in all places of explara-core (hdpi,mdpi all ..)
+5. Removed initialiseCitrus in TicketsDetailActivity
+6. EventsManger.getInstance().checkAttendeeFormEnabled(mEventID)  in hidden for now.
+

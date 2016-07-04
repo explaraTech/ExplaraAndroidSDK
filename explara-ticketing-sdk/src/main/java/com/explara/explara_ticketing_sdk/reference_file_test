@@ -1,0 +1,8 @@
+Modifications
+=============
+
+1. Removed Mytickets -  downloadTickets from TicketConnectionManager
+2. Removed Transaction dto for now (Clever Tap) - Implement later
+3. Move Multidate package booking from explara-ticking to explara-ticketing-sdk (Done)
+4. Removed cleaverTap operations from ticket confirmation page.Due to use of transactions object
+

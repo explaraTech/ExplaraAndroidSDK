@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.explara_core.utils.CircularNetworkImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/attendee_img"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_marginLeft="16dp"
+    android:scaleType="centerCrop" />

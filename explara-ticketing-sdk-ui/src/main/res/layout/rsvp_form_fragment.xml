@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.explara.android.Activity.LoginActivity"
+    android:id="@+id/rsvp_form_activity">
+
+    <TextView
+        android:id="@+id/buyer_details_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dadada"
+        android:text="RSVP Form"
+        style="@style/textViewBookFontStyle"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textSize="16sp"
+        android:textColor="#212121"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyer_details_text">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginTop="5dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/buyername_text_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/EnquiryFormHintAppearance"
+                app:errorTextAppearance="@style/TextAppearance.TextInputLayout.Red"
+                style="@style/InlineFormTheme">
+
+                <EditText
+                    android:id="@+id/buyernameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Full Name"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/buyeremail_text_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/EnquiryFormHintAppearance"
+                app:errorTextAppearance="@style/TextAppearance.TextInputLayout.Red"
+                style="@style/InlineFormTheme">
+
+                <EditText
+                    android:id="@+id/buyeremailEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/buyermobile_text_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/EnquiryFormHintAppearance"
+                app:errorTextAppearance="@style/TextAppearance.TextInputLayout.Red"
+                style="@style/InlineFormTheme">
+
+                <EditText
+                    android:id="@+id/buyermobileEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Mobile Number"
+                    android:inputType="phone" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rsvp_confirm_button"
+                android:background="@color/colorPrimary"
+                android:text="Confirm"
+                android:textColor="@color/color_white"
+                android:textAllCaps="false"
+                android:layout_marginTop="15dp"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
+
+
+
+

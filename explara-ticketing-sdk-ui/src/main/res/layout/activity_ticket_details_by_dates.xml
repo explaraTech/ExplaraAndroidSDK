@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.explara.android.Activity.TicketDetailActivity"
+    android:id="@+id/ticket_detail_activity">
+
+    <LinearLayout
+        android:id="@+id/root_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ticketdetailswithtimings_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/accentColor"
+        android:indeterminateTintMode="src_in"
+        android:indeterminate="true"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/error_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@drawable/error_img"
+        android:text="@string/error_message"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/no_sessions_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@drawable/exp_icon"
+        android:text="@string/no_sessions_by_date"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Explara</string>
+    <!--<string name="shared_prefs_key">com.explara.android.shared_preferences</string>-->
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="title_activity_collection_list">CollectionListActivity</string>
+
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_personalize">PersonalizeActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+
+
+    <string name="event_about_desc">A weekend packed of Improvisational Comedy and Theatre
+with international performance troupe Improv Comedy
+Mumbai. Come, watch the best of improv comedy and laugh
+till you drop, literally! A weekend packed of Improvisational
+Comedy and Theatre with international performance troupe
+Improv Comedy Mumbai. Come, watch the best of improv
+comedy and laugh till you drop, literally!</string>
+    <string name="title_activity_ticket_detail">TicketDetailActivity</string>
+    <string name="title_activity_buyer_details">BuyerDetailsActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_payment_selection">PaymentSelectionActivity</string>
+    <string name="title_activity_booking_confirmed">BookingConfirmedActivity</string>
+    <string name="title_activity_booking_pending">BookingPendingActivity</string>
+    <string name="title_activity_events_list_view">EventsListView</string>
+
+
+    <!-- Strings used in TicketDetailActivity -->
+    <string name="ends_by">Ends By: %1$s</string>
+    <string name="rupess">&#x20B9; %1$s</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_push_notifications">PushNotificationsActivity</string>
+    <string name="title_activity_details_of_event">DetailsOfEventActivity</string>
+    <string name="title_activity_my_tickets">MyTicketsActivity</string>
+    <string name="title_activity_my_favorites">MyFavoritesActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_activity_my_topics">MyTopicsActivity</string>
+    <string name="title_activity_order_details">OrderDetailsActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_filter">FilterActivity</string>
+    <string name="title_activity_webpage">WebpageActivity</string>
+    <string name="title_activity_tearms">TearmsActivity</string>
+
+
+    <string name="facebook_app_id" translatable="false">138065189864115</string>
+    <string name="title_activity_select_city">SelectCity</string>
+
+
+    <string name="filter_option_1">Under\nRs 1000</string>
+    <string name="filter_option_2">Rs 1000\nRs 5000</string>
+    <string name="filter_option_3">Rs 5000\nRs 10000</string>
+    <string name="title_activity_forgot_password_verification">ForgotPasswordVerificationActivity
+    </string>
+    <string name="title_activity_new_password">NewPassword</string>
+    <string name="title_activity_select_city__copy">SelectCity_Copy</string>
+    <string name="title_activity_select_city__copy_2">SelectCity_Copy_2</string>
+
+    <string name="gcm_senderId_chat">93851232004</string>
+    <string name="konotor_app_id">f1ba473e-fb66-45a7-8708-d9227a7ffc73</string>
+    <string name="konotor_app_key">d22a60c9-e747-4d8f-887a-d6fd5e00191b</string>
+    <string name="title_activity_topics">TopicsActivity</string>
+    <string name="title_activity_topics_list">TopicsListActivity</string>
+    <string name="market_rating_url">market://details?id=com.explara.android</string>
+    <string name="share_message_txt">Hey check out Explara Android app \n https://play.google.com/store/apps/details?id=com.explara.android</string>
+    <string name="find_more_topics_txt">Find More Topics to Follow</string>
+    <string name="error_message">Oops !! Something went Wrong</string>
+    <string name="no_events_search">No events found matching this keyword</string>
+    <string name="no_sessions">No sessions available for this event</string>
+    <string name="no_sessions_by_date">No sessions available for this date</string>
+    <string name="title_activity_ticket_category">TicketCategoryActivity</string>
+    <string name="featured_text">Featured</string>
+    <string name="search_title">Search</string>
+    <string name="create_event_title">CreateEvent</string>
+    <string name="search_hint">Search Events,Categories and more</string>
+    <string name="search_city_hint">Search City</string>
+    <string name="select_city_asset_file_name">api_resposne/top_cities.json</string>
+    <string name="empty_username">Enter a valid email address</string>
+    <string name="empty_password">Password seems to be empty</string>
+    <string name="no_events_text_msg">Sorry, There are no Events found in the selected city</string>
+    <string name="no_attendee_fields">Sorry, No Attendee Fields</string>
+    <string name="empty_mobile_number">Please enter mobile number</string>
+    <string name="mobile_is_number">Mobile must be numbers only</string>
+    <string name="empty_full_name">Please enter your full name</string>
+    <string name="empty_enquiry">Enquiry seems empty</string>
+    <string name="check_aggrement">Please select the agreement checkbox</string>
+    <string name="empty_verification_code">Verification code could not be empty</string>
+    <string name="empty_new_password">New password seems to be empty</string>
+    <string name="empty_confirm_password">Confirm password seems to be empty</string>
+    <string name="password_not_match">Both password are not matching</string>
+    <string name="no_fav_events">No favourite events found</string>
+    <string name="internet_check_msg">Please check Internet Connection</string>
+    <string name="volley_exception">com.android.volley.NoConnectionError: java.net.UnknownHostException: Unable to resolve host "api.explara.com": No address associated with hostname</string>
+    <string name="volley_unknownhost_exception">java.net.UnknownHostException:</string>
+    <string name="api_connection_refused">java.net.ConnectException: failed to connect to apistaging.explara.com/13.76.26.31 (port 80) after 60000ms: isConnected failed: ECONNREFUSED (Connection refused)</string>
+    <string name="following_txt">Following</string>
+    <string name="select_attendee_quantity">Select attendee quantity</string>
+
+    <!-- strings used for application update dialog -->
+    <string name="update_dialog_title">Explara Care</string>
+    <string name="update_dialog_content">Hey, I’ve been Upgraded!</string>
+    <string name="update_dialog_positiveText">update</string>
+    <string name="update_dialog_negativeText">no, may be later</string>
+
+    <string name="rupee_symbol">\u20B9</string>
+    <string name="payment_failed_txt">Payment Failed, Please try again!</string>
+    <string name="empty_wallet_amout">Amount must be greater than zero</string>
+
+    <string name="search_empty_input_text">Input should not be empty</string>
+    <string name="account_inactive">Account is not active</string>
+    <string name="account_already_exist">Account already exist</string>
+    <string name="select_your_city_hint">Select your city</string>
+
+    <string name="no_event_associated">No events associated with this topic</string>
+    <string name="select_your_venue_hint">Select your venue</string>
+    <string name="spinner_default_text">Please select status</string>
+    <string name="enter_date_create_event">Enter the dates for event</string>
+    <string name="address_layout_venu_name_error_text">Venue name shouldn\'t be empty</string>
+    <string name="address_layout_address_line_one_error_text">Address field shouldn\'t be empty</string>
+    <string name="address_layout_address_line_two_error_text">Address field shouldn\'t be empty</string>
+    <string name="address_layout_city_name_error_text">City name field shouldn\'t be empty</string>
+    <string name="address_layout_country_name_error_text">Country name field shouldn\'t be empty</string>
+    <string name="address_layout_pincode_error_text">Pincode field shouldn\'t be empty</string>
+    <string name="address_layout_state_name_error_text">State name field shouldn\'t be empty</string>
+    <string name="empty_events_on_topics">No Events Found, Please select some other topics</string>
+    <string name="empty_events_on_topics_selected">No Events Found, Please select any topics</string>
+
+
+    <string-array name="string_category_name">
+        <item>Learn</item>
+        <item>Entertainment</item>
+        <item>Sports</item>
+        <item>Food &amp; Drinks</item>
+        <item>Active &amp; Outdoor</item>
+    </string-array>
+
+    <string name="adjust_app_token" translatable="false">s0kds2yr08hs</string>
+
+</resources>

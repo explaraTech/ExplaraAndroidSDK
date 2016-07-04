@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    android:id="@+id/ticket_detail_footer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/fare_breakdown_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="+ Fare Breakdown"
+            android:textColor="@color/style_color_default_teal"
+            android:textSize="14sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/discount_coupon_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="+ Discount Coupon"
+            android:textColor="@color/style_color_default_red"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="right" />
+    </LinearLayout>
+
+    <!--  <include layout="@layout/separator_layout"/> -->
+
+    <LinearLayout
+        android:id="@+id/apply_discount_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/discount_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="7"
+            android:hint=" Enter your discount code"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:background="@drawable/coupons_bg"
+            android:layout_marginRight="10dp" />
+
+
+        <RelativeLayout
+            android:layout_width="46dp"
+            android:layout_height="36dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/apply_coupon_button"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:padding="0dp"
+                android:background="@drawable/tick_apply"
+                android:layout_margin="0dp"
+                android:layout_centerInParent="true" />
+
+            <ProgressBar
+                android:id="@+id/discount_progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateTint="@color/accentColor"
+                android:indeterminateTintMode="src_in"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fare_breakdown_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/fare_breakdown_layout_item" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+Modifications
+=============
+1. Remove CitrusLibrary,CitrusSdk dependency from app level gradel file.
+2. Remove Paypal.jar file from app level lib folder.
+3. Remove Ccavenue folder from the Utils for App level.
+
+

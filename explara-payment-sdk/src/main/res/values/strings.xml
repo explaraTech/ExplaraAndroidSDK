@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Explara-Payment-Sdk</string>
+    <string name="payment_failed_txt">Payment Failed, Please try again!</string>
+    <string name="rupee_symbol">\u20B9</string>
+    <string name="empty_wallet_amout">Amount must be greater than zero</string>
+    <string name="personalized_screen_activity">com.explara.android.personalizedHome.ui.PersonalizeScreenActivity</string>
+    <string name="my_tickets_activity">com.explara.android.tickets.ui.TicketsActivity</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/citrus_card_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        style="@style/textViewMediumFontStyle"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="36dp"
+        android:padding="5dp"
+        android:text="Wallet balance :"
+        android:textColor="#212121"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:id="@+id/balance_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="12dp">
+
+        <ProgressBar
+            android:id="@+id/balance_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/accentColor"
+            android:indeterminateTintMode="src_in"
+            android:indeterminate="true" />
+
+        <TextView
+            android:id="@+id/balance_amount_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textViewMediumFontStyle"
+            android:padding="5dp"
+            android:text="Rs 3000"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textViewMediumFontStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/balance_layout"
+        android:padding="5dp"
+        android:text="Ticket Price"
+        android:layout_marginLeft="12dp"
+        android:textColor="#212121"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ticket_price_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/balance_layout"
+        android:textColor="#212121"
+        style="@style/textViewMediumFontStyle"
+        android:padding="5dp"
+        android:text="Rs 3000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/proceed_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ticket_price_txt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_bg_wallets"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:textColor="#FFF"
+        android:text="Proceed" />
+
+
+</RelativeLayout>
